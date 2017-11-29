@@ -125,3 +125,14 @@ void Shop::openShop(std::shared_ptr<Player> &player)
         }
     }
 }
+
+void Shop::print(int &gold, const int cost)
+{
+    std::cout << "---\n"
+              << name << " " << gold << "\n"
+              << "---\n"
+              << "[1] (" << std::setw(3) << cost << " gp)" << this->map_Choices[1] << "\n";
+    for(int i = 2; i != this->map_Choices.size (); i++)
+        std::cout << "[" << i << "] " << this->map_Choices[i] << '\n';
+    std::cout << "---\n" << "[0] " << this->map_Choices[0] << '\n';
+}

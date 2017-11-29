@@ -104,33 +104,9 @@ CMakeFiles/enemy.dir/data/game/Game.cpp.obj.provides: CMakeFiles/enemy.dir/data/
 CMakeFiles/enemy.dir/data/game/Game.cpp.obj.provides.build: CMakeFiles/enemy.dir/data/game/Game.cpp.obj
 
 
-CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj: CMakeFiles/enemy.dir/flags.make
-CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj: ../data/game/menu/Menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\game\menu\Menu.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\game\menu\Menu.cpp
-
-CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ezrozpi\Documents\enemy\data\game\menu\Menu.cpp > CMakeFiles\enemy.dir\data\game\menu\Menu.cpp.i
-
-CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ezrozpi\Documents\enemy\data\game\menu\Menu.cpp -o CMakeFiles\enemy.dir\data\game\menu\Menu.cpp.s
-
-CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj.requires:
-
-.PHONY : CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj.requires
-
-CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj.provides: CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\enemy.dir\build.make CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj.provides.build
-.PHONY : CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj.provides
-
-CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj.provides.build: CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj
-
-
 CMakeFiles/enemy.dir/data/game/create/Create.cpp.obj: CMakeFiles/enemy.dir/flags.make
 CMakeFiles/enemy.dir/data/game/create/Create.cpp.obj: ../data/game/create/Create.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/enemy.dir/data/game/create/Create.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/enemy.dir/data/game/create/Create.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\game\create\Create.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\game\create\Create.cpp
 
 CMakeFiles/enemy.dir/data/game/create/Create.cpp.i: cmake_force
@@ -152,33 +128,9 @@ CMakeFiles/enemy.dir/data/game/create/Create.cpp.obj.provides: CMakeFiles/enemy.
 CMakeFiles/enemy.dir/data/game/create/Create.cpp.obj.provides.build: CMakeFiles/enemy.dir/data/game/create/Create.cpp.obj
 
 
-CMakeFiles/enemy.dir/data/Data.cpp.obj: CMakeFiles/enemy.dir/flags.make
-CMakeFiles/enemy.dir/data/Data.cpp.obj: ../data/Data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/enemy.dir/data/Data.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\Data.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\Data.cpp
-
-CMakeFiles/enemy.dir/data/Data.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enemy.dir/data/Data.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ezrozpi\Documents\enemy\data\Data.cpp > CMakeFiles\enemy.dir\data\Data.cpp.i
-
-CMakeFiles/enemy.dir/data/Data.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enemy.dir/data/Data.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ezrozpi\Documents\enemy\data\Data.cpp -o CMakeFiles\enemy.dir\data\Data.cpp.s
-
-CMakeFiles/enemy.dir/data/Data.cpp.obj.requires:
-
-.PHONY : CMakeFiles/enemy.dir/data/Data.cpp.obj.requires
-
-CMakeFiles/enemy.dir/data/Data.cpp.obj.provides: CMakeFiles/enemy.dir/data/Data.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\enemy.dir\build.make CMakeFiles/enemy.dir/data/Data.cpp.obj.provides.build
-.PHONY : CMakeFiles/enemy.dir/data/Data.cpp.obj.provides
-
-CMakeFiles/enemy.dir/data/Data.cpp.obj.provides.build: CMakeFiles/enemy.dir/data/Data.cpp.obj
-
-
 CMakeFiles/enemy.dir/data/characters/Character.cpp.obj: CMakeFiles/enemy.dir/flags.make
 CMakeFiles/enemy.dir/data/characters/Character.cpp.obj: ../data/characters/Character.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/enemy.dir/data/characters/Character.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/enemy.dir/data/characters/Character.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\characters\Character.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\characters\Character.cpp
 
 CMakeFiles/enemy.dir/data/characters/Character.cpp.i: cmake_force
@@ -202,7 +154,7 @@ CMakeFiles/enemy.dir/data/characters/Character.cpp.obj.provides.build: CMakeFile
 
 CMakeFiles/enemy.dir/data/characters/players/warrior/Warrior.cpp.obj: CMakeFiles/enemy.dir/flags.make
 CMakeFiles/enemy.dir/data/characters/players/warrior/Warrior.cpp.obj: ../data/characters/players/warrior/Warrior.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/enemy.dir/data/characters/players/warrior/Warrior.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/enemy.dir/data/characters/players/warrior/Warrior.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\characters\players\warrior\Warrior.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\characters\players\warrior\Warrior.cpp
 
 CMakeFiles/enemy.dir/data/characters/players/warrior/Warrior.cpp.i: cmake_force
@@ -226,7 +178,7 @@ CMakeFiles/enemy.dir/data/characters/players/warrior/Warrior.cpp.obj.provides.bu
 
 CMakeFiles/enemy.dir/data/characters/players/Player.cpp.obj: CMakeFiles/enemy.dir/flags.make
 CMakeFiles/enemy.dir/data/characters/players/Player.cpp.obj: ../data/characters/players/Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/enemy.dir/data/characters/players/Player.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/enemy.dir/data/characters/players/Player.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\characters\players\Player.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\characters\players\Player.cpp
 
 CMakeFiles/enemy.dir/data/characters/players/Player.cpp.i: cmake_force
@@ -250,7 +202,7 @@ CMakeFiles/enemy.dir/data/characters/players/Player.cpp.obj.provides.build: CMak
 
 CMakeFiles/enemy.dir/data/skills/Skill.cpp.obj: CMakeFiles/enemy.dir/flags.make
 CMakeFiles/enemy.dir/data/skills/Skill.cpp.obj: ../data/skills/Skill.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/enemy.dir/data/skills/Skill.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/enemy.dir/data/skills/Skill.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\skills\Skill.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\skills\Skill.cpp
 
 CMakeFiles/enemy.dir/data/skills/Skill.cpp.i: cmake_force
@@ -274,7 +226,7 @@ CMakeFiles/enemy.dir/data/skills/Skill.cpp.obj.provides.build: CMakeFiles/enemy.
 
 CMakeFiles/enemy.dir/data/characters/players/rogue/Rogue.cpp.obj: CMakeFiles/enemy.dir/flags.make
 CMakeFiles/enemy.dir/data/characters/players/rogue/Rogue.cpp.obj: ../data/characters/players/rogue/Rogue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/enemy.dir/data/characters/players/rogue/Rogue.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/enemy.dir/data/characters/players/rogue/Rogue.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\characters\players\rogue\Rogue.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\characters\players\rogue\Rogue.cpp
 
 CMakeFiles/enemy.dir/data/characters/players/rogue/Rogue.cpp.i: cmake_force
@@ -298,7 +250,7 @@ CMakeFiles/enemy.dir/data/characters/players/rogue/Rogue.cpp.obj.provides.build:
 
 CMakeFiles/enemy.dir/data/characters/players/mage/Mage.cpp.obj: CMakeFiles/enemy.dir/flags.make
 CMakeFiles/enemy.dir/data/characters/players/mage/Mage.cpp.obj: ../data/characters/players/mage/Mage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/enemy.dir/data/characters/players/mage/Mage.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/enemy.dir/data/characters/players/mage/Mage.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\characters\players\mage\Mage.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\characters\players\mage\Mage.cpp
 
 CMakeFiles/enemy.dir/data/characters/players/mage/Mage.cpp.i: cmake_force
@@ -322,7 +274,7 @@ CMakeFiles/enemy.dir/data/characters/players/mage/Mage.cpp.obj.provides.build: C
 
 CMakeFiles/enemy.dir/Loop.cpp.obj: CMakeFiles/enemy.dir/flags.make
 CMakeFiles/enemy.dir/Loop.cpp.obj: ../Loop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/enemy.dir/Loop.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/enemy.dir/Loop.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\Loop.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\Loop.cpp
 
 CMakeFiles/enemy.dir/Loop.cpp.i: cmake_force
@@ -346,7 +298,7 @@ CMakeFiles/enemy.dir/Loop.cpp.obj.provides.build: CMakeFiles/enemy.dir/Loop.cpp.
 
 CMakeFiles/enemy.dir/data/characters/enemies/Enemy.cpp.obj: CMakeFiles/enemy.dir/flags.make
 CMakeFiles/enemy.dir/data/characters/enemies/Enemy.cpp.obj: ../data/characters/enemies/Enemy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/enemy.dir/data/characters/enemies/Enemy.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/enemy.dir/data/characters/enemies/Enemy.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\characters\enemies\Enemy.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\characters\enemies\Enemy.cpp
 
 CMakeFiles/enemy.dir/data/characters/enemies/Enemy.cpp.i: cmake_force
@@ -370,7 +322,7 @@ CMakeFiles/enemy.dir/data/characters/enemies/Enemy.cpp.obj.provides.build: CMake
 
 CMakeFiles/enemy.dir/data/characters/enemies/warlock/Warlock.cpp.obj: CMakeFiles/enemy.dir/flags.make
 CMakeFiles/enemy.dir/data/characters/enemies/warlock/Warlock.cpp.obj: ../data/characters/enemies/warlock/Warlock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/enemy.dir/data/characters/enemies/warlock/Warlock.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/enemy.dir/data/characters/enemies/warlock/Warlock.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\characters\enemies\warlock\Warlock.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\characters\enemies\warlock\Warlock.cpp
 
 CMakeFiles/enemy.dir/data/characters/enemies/warlock/Warlock.cpp.i: cmake_force
@@ -394,7 +346,7 @@ CMakeFiles/enemy.dir/data/characters/enemies/warlock/Warlock.cpp.obj.provides.bu
 
 CMakeFiles/enemy.dir/data/characters/enemies/orc/Orc.cpp.obj: CMakeFiles/enemy.dir/flags.make
 CMakeFiles/enemy.dir/data/characters/enemies/orc/Orc.cpp.obj: ../data/characters/enemies/orc/Orc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/enemy.dir/data/characters/enemies/orc/Orc.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/enemy.dir/data/characters/enemies/orc/Orc.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\characters\enemies\orc\Orc.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\characters\enemies\orc\Orc.cpp
 
 CMakeFiles/enemy.dir/data/characters/enemies/orc/Orc.cpp.i: cmake_force
@@ -418,7 +370,7 @@ CMakeFiles/enemy.dir/data/characters/enemies/orc/Orc.cpp.obj.provides.build: CMa
 
 CMakeFiles/enemy.dir/data/characters/enemies/goblin/Goblin.cpp.obj: CMakeFiles/enemy.dir/flags.make
 CMakeFiles/enemy.dir/data/characters/enemies/goblin/Goblin.cpp.obj: ../data/characters/enemies/goblin/Goblin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/enemy.dir/data/characters/enemies/goblin/Goblin.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/enemy.dir/data/characters/enemies/goblin/Goblin.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\characters\enemies\goblin\Goblin.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\characters\enemies\goblin\Goblin.cpp
 
 CMakeFiles/enemy.dir/data/characters/enemies/goblin/Goblin.cpp.i: cmake_force
@@ -442,7 +394,7 @@ CMakeFiles/enemy.dir/data/characters/enemies/goblin/Goblin.cpp.obj.provides.buil
 
 CMakeFiles/enemy.dir/data/factory/Factory.cpp.obj: CMakeFiles/enemy.dir/flags.make
 CMakeFiles/enemy.dir/data/factory/Factory.cpp.obj: ../data/factory/Factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/enemy.dir/data/factory/Factory.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/enemy.dir/data/factory/Factory.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\factory\Factory.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\factory\Factory.cpp
 
 CMakeFiles/enemy.dir/data/factory/Factory.cpp.i: cmake_force
@@ -466,7 +418,7 @@ CMakeFiles/enemy.dir/data/factory/Factory.cpp.obj.provides.build: CMakeFiles/ene
 
 CMakeFiles/enemy.dir/data/game/select/Select.cpp.obj: CMakeFiles/enemy.dir/flags.make
 CMakeFiles/enemy.dir/data/game/select/Select.cpp.obj: ../data/game/select/Select.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/enemy.dir/data/game/select/Select.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/enemy.dir/data/game/select/Select.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\game\select\Select.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\game\select\Select.cpp
 
 CMakeFiles/enemy.dir/data/game/select/Select.cpp.i: cmake_force
@@ -490,7 +442,7 @@ CMakeFiles/enemy.dir/data/game/select/Select.cpp.obj.provides.build: CMakeFiles/
 
 CMakeFiles/enemy.dir/data/game/stats/Stats.cpp.obj: CMakeFiles/enemy.dir/flags.make
 CMakeFiles/enemy.dir/data/game/stats/Stats.cpp.obj: ../data/game/stats/Stats.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/enemy.dir/data/game/stats/Stats.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/enemy.dir/data/game/stats/Stats.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\game\stats\Stats.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\game\stats\Stats.cpp
 
 CMakeFiles/enemy.dir/data/game/stats/Stats.cpp.i: cmake_force
@@ -514,7 +466,7 @@ CMakeFiles/enemy.dir/data/game/stats/Stats.cpp.obj.provides.build: CMakeFiles/en
 
 CMakeFiles/enemy.dir/data/game/battle/Battle.cpp.obj: CMakeFiles/enemy.dir/flags.make
 CMakeFiles/enemy.dir/data/game/battle/Battle.cpp.obj: ../data/game/battle/Battle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/enemy.dir/data/game/battle/Battle.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/enemy.dir/data/game/battle/Battle.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\game\battle\Battle.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\game\battle\Battle.cpp
 
 CMakeFiles/enemy.dir/data/game/battle/Battle.cpp.i: cmake_force
@@ -538,7 +490,7 @@ CMakeFiles/enemy.dir/data/game/battle/Battle.cpp.obj.provides.build: CMakeFiles/
 
 CMakeFiles/enemy.dir/data/game/shop/Shop.cpp.obj: CMakeFiles/enemy.dir/flags.make
 CMakeFiles/enemy.dir/data/game/shop/Shop.cpp.obj: ../data/game/shop/Shop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/enemy.dir/data/game/shop/Shop.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/enemy.dir/data/game/shop/Shop.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\game\shop\Shop.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\game\shop\Shop.cpp
 
 CMakeFiles/enemy.dir/data/game/shop/Shop.cpp.i: cmake_force
@@ -562,7 +514,7 @@ CMakeFiles/enemy.dir/data/game/shop/Shop.cpp.obj.provides.build: CMakeFiles/enem
 
 CMakeFiles/enemy.dir/data/game/training/Training.cpp.obj: CMakeFiles/enemy.dir/flags.make
 CMakeFiles/enemy.dir/data/game/training/Training.cpp.obj: ../data/game/training/Training.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/enemy.dir/data/game/training/Training.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/enemy.dir/data/game/training/Training.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\game\training\Training.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\game\training\Training.cpp
 
 CMakeFiles/enemy.dir/data/game/training/Training.cpp.i: cmake_force
@@ -586,7 +538,7 @@ CMakeFiles/enemy.dir/data/game/training/Training.cpp.obj.provides.build: CMakeFi
 
 CMakeFiles/enemy.dir/data/game/items/Item.cpp.obj: CMakeFiles/enemy.dir/flags.make
 CMakeFiles/enemy.dir/data/game/items/Item.cpp.obj: ../data/game/items/Item.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/enemy.dir/data/game/items/Item.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/enemy.dir/data/game/items/Item.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\enemy.dir\data\game\items\Item.cpp.obj -c C:\Users\ezrozpi\Documents\enemy\data\game\items\Item.cpp
 
 CMakeFiles/enemy.dir/data/game/items/Item.cpp.i: cmake_force
@@ -612,9 +564,7 @@ CMakeFiles/enemy.dir/data/game/items/Item.cpp.obj.provides.build: CMakeFiles/ene
 enemy_OBJECTS = \
 "CMakeFiles/enemy.dir/main.cpp.obj" \
 "CMakeFiles/enemy.dir/data/game/Game.cpp.obj" \
-"CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj" \
 "CMakeFiles/enemy.dir/data/game/create/Create.cpp.obj" \
-"CMakeFiles/enemy.dir/data/Data.cpp.obj" \
 "CMakeFiles/enemy.dir/data/characters/Character.cpp.obj" \
 "CMakeFiles/enemy.dir/data/characters/players/warrior/Warrior.cpp.obj" \
 "CMakeFiles/enemy.dir/data/characters/players/Player.cpp.obj" \
@@ -639,9 +589,7 @@ enemy_EXTERNAL_OBJECTS =
 
 enemy.exe: CMakeFiles/enemy.dir/main.cpp.obj
 enemy.exe: CMakeFiles/enemy.dir/data/game/Game.cpp.obj
-enemy.exe: CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj
 enemy.exe: CMakeFiles/enemy.dir/data/game/create/Create.cpp.obj
-enemy.exe: CMakeFiles/enemy.dir/data/Data.cpp.obj
 enemy.exe: CMakeFiles/enemy.dir/data/characters/Character.cpp.obj
 enemy.exe: CMakeFiles/enemy.dir/data/characters/players/warrior/Warrior.cpp.obj
 enemy.exe: CMakeFiles/enemy.dir/data/characters/players/Player.cpp.obj
@@ -664,7 +612,7 @@ enemy.exe: CMakeFiles/enemy.dir/build.make
 enemy.exe: CMakeFiles/enemy.dir/linklibs.rsp
 enemy.exe: CMakeFiles/enemy.dir/objects1.rsp
 enemy.exe: CMakeFiles/enemy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable enemy.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ezrozpi\Documents\enemy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable enemy.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\enemy.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -674,9 +622,7 @@ CMakeFiles/enemy.dir/build: enemy.exe
 
 CMakeFiles/enemy.dir/requires: CMakeFiles/enemy.dir/main.cpp.obj.requires
 CMakeFiles/enemy.dir/requires: CMakeFiles/enemy.dir/data/game/Game.cpp.obj.requires
-CMakeFiles/enemy.dir/requires: CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj.requires
 CMakeFiles/enemy.dir/requires: CMakeFiles/enemy.dir/data/game/create/Create.cpp.obj.requires
-CMakeFiles/enemy.dir/requires: CMakeFiles/enemy.dir/data/Data.cpp.obj.requires
 CMakeFiles/enemy.dir/requires: CMakeFiles/enemy.dir/data/characters/Character.cpp.obj.requires
 CMakeFiles/enemy.dir/requires: CMakeFiles/enemy.dir/data/characters/players/warrior/Warrior.cpp.obj.requires
 CMakeFiles/enemy.dir/requires: CMakeFiles/enemy.dir/data/characters/players/Player.cpp.obj.requires

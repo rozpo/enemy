@@ -27,6 +27,6 @@ Player::Player(e_Player p_id,
                               p_strength,
                               p_agility,
                               p_intelligence,
-                              10001
-                            ,0)
+                              100,
+                              0)
 {}

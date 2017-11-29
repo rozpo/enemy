@@ -6,8 +6,6 @@
 #include <iomanip>
 #include <iostream>
 
-#include "../characters/players/Player.h"
-
 Skill::Skill(e_Move id,std::string name,bool target,int damage,int chance,int critical, e_MoveType type):
         id(id),name(std::move (name)),target(target),damage(damage),chance(chance),critical(critical), type(type)
 {}

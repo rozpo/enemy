@@ -86,9 +86,6 @@
 		<Unit filename="C:/Users/ezrozpi/Documents/enemy/Loop.h">
 			<Option target="enemy"/>
 		</Unit>
-		<Unit filename="C:/Users/ezrozpi/Documents/enemy/data/Data.cpp">
-			<Option target="enemy"/>
-		</Unit>
 		<Unit filename="C:/Users/ezrozpi/Documents/enemy/data/Data.h">
 			<Option target="enemy"/>
 		</Unit>
@@ -174,9 +171,6 @@
 			<Option target="enemy"/>
 		</Unit>
 		<Unit filename="C:/Users/ezrozpi/Documents/enemy/data/game/items/Item.h">
-			<Option target="enemy"/>
-		</Unit>
-		<Unit filename="C:/Users/ezrozpi/Documents/enemy/data/game/menu/Menu.cpp">
 			<Option target="enemy"/>
 		</Unit>
 		<Unit filename="C:/Users/ezrozpi/Documents/enemy/data/game/menu/Menu.h">

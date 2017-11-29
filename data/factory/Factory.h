@@ -11,14 +11,13 @@
 
 class Factory
 {
-public:
-    Factory() = default;
+private:
+    Factory(){};
     Factory(const Factory &){};
     Factory& operator= (const Factory&){};
-    ~Factory() = default;
+public:
     static std::shared_ptr<Player> createPlayer(int type);
     static std::shared_ptr<Enemy>  createEnemy(int type);
-public:
     static Factory& getInstance();
 };
 

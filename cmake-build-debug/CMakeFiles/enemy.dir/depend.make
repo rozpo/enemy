@@ -19,13 +19,6 @@ CMakeFiles/enemy.dir/Loop.cpp.obj: ../data/game/stats/Stats.h
 CMakeFiles/enemy.dir/Loop.cpp.obj: ../data/game/training/Training.h
 CMakeFiles/enemy.dir/Loop.cpp.obj: ../data/skills/Skill.h
 
-CMakeFiles/enemy.dir/data/Data.cpp.obj: ../data/Data.cpp
-CMakeFiles/enemy.dir/data/Data.cpp.obj: ../data/Data.h
-CMakeFiles/enemy.dir/data/Data.cpp.obj: ../data/characters/Character.h
-CMakeFiles/enemy.dir/data/Data.cpp.obj: ../data/characters/enemies/Enemy.h
-CMakeFiles/enemy.dir/data/Data.cpp.obj: ../data/characters/players/Player.h
-CMakeFiles/enemy.dir/data/Data.cpp.obj: ../data/skills/Skill.h
-
 CMakeFiles/enemy.dir/data/characters/Character.cpp.obj: ../data/characters/Character.cpp
 CMakeFiles/enemy.dir/data/characters/Character.cpp.obj: ../data/characters/Character.h
 CMakeFiles/enemy.dir/data/characters/Character.cpp.obj: ../data/skills/Skill.h
@@ -119,13 +112,6 @@ CMakeFiles/enemy.dir/data/game/items/Item.cpp.obj: ../data/game/items/Item.cpp
 CMakeFiles/enemy.dir/data/game/items/Item.cpp.obj: ../data/game/items/Item.h
 CMakeFiles/enemy.dir/data/game/items/Item.cpp.obj: ../data/skills/Skill.h
 
-CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj: ../data/characters/Character.h
-CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj: ../data/characters/players/Player.h
-CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj: ../data/game/Game.h
-CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj: ../data/game/menu/Menu.cpp
-CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj: ../data/game/menu/Menu.h
-CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj: ../data/skills/Skill.h
-
 CMakeFiles/enemy.dir/data/game/select/Select.cpp.obj: ../data/characters/Character.h
 CMakeFiles/enemy.dir/data/game/select/Select.cpp.obj: ../data/characters/players/Player.h
 CMakeFiles/enemy.dir/data/game/select/Select.cpp.obj: ../data/game/Game.h
@@ -154,8 +140,6 @@ CMakeFiles/enemy.dir/data/game/training/Training.cpp.obj: ../data/game/training/
 CMakeFiles/enemy.dir/data/game/training/Training.cpp.obj: ../data/game/training/Training.h
 CMakeFiles/enemy.dir/data/game/training/Training.cpp.obj: ../data/skills/Skill.h
 
-CMakeFiles/enemy.dir/data/skills/Skill.cpp.obj: ../data/characters/Character.h
-CMakeFiles/enemy.dir/data/skills/Skill.cpp.obj: ../data/characters/players/Player.h
 CMakeFiles/enemy.dir/data/skills/Skill.cpp.obj: ../data/skills/Skill.cpp
 CMakeFiles/enemy.dir/data/skills/Skill.cpp.obj: ../data/skills/Skill.h
 

@@ -149,33 +149,6 @@ Loop.cpp.s:
 	$(MAKE) -f CMakeFiles\enemy.dir\build.make CMakeFiles/enemy.dir/Loop.cpp.s
 .PHONY : Loop.cpp.s
 
-data/Data.obj: data/Data.cpp.obj
-
-.PHONY : data/Data.obj
-
-# target to build an object file
-data/Data.cpp.obj:
-	$(MAKE) -f CMakeFiles\enemy.dir\build.make CMakeFiles/enemy.dir/data/Data.cpp.obj
-.PHONY : data/Data.cpp.obj
-
-data/Data.i: data/Data.cpp.i
-
-.PHONY : data/Data.i
-
-# target to preprocess a source file
-data/Data.cpp.i:
-	$(MAKE) -f CMakeFiles\enemy.dir\build.make CMakeFiles/enemy.dir/data/Data.cpp.i
-.PHONY : data/Data.cpp.i
-
-data/Data.s: data/Data.cpp.s
-
-.PHONY : data/Data.s
-
-# target to generate assembly for a file
-data/Data.cpp.s:
-	$(MAKE) -f CMakeFiles\enemy.dir\build.make CMakeFiles/enemy.dir/data/Data.cpp.s
-.PHONY : data/Data.cpp.s
-
 data/characters/Character.obj: data/characters/Character.cpp.obj
 
 .PHONY : data/characters/Character.obj
@@ -554,33 +527,6 @@ data/game/items/Item.cpp.s:
 	$(MAKE) -f CMakeFiles\enemy.dir\build.make CMakeFiles/enemy.dir/data/game/items/Item.cpp.s
 .PHONY : data/game/items/Item.cpp.s
 
-data/game/menu/Menu.obj: data/game/menu/Menu.cpp.obj
-
-.PHONY : data/game/menu/Menu.obj
-
-# target to build an object file
-data/game/menu/Menu.cpp.obj:
-	$(MAKE) -f CMakeFiles\enemy.dir\build.make CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj
-.PHONY : data/game/menu/Menu.cpp.obj
-
-data/game/menu/Menu.i: data/game/menu/Menu.cpp.i
-
-.PHONY : data/game/menu/Menu.i
-
-# target to preprocess a source file
-data/game/menu/Menu.cpp.i:
-	$(MAKE) -f CMakeFiles\enemy.dir\build.make CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.i
-.PHONY : data/game/menu/Menu.cpp.i
-
-data/game/menu/Menu.s: data/game/menu/Menu.cpp.s
-
-.PHONY : data/game/menu/Menu.s
-
-# target to generate assembly for a file
-data/game/menu/Menu.cpp.s:
-	$(MAKE) -f CMakeFiles\enemy.dir\build.make CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.s
-.PHONY : data/game/menu/Menu.cpp.s
-
 data/game/select/Select.obj: data/game/select/Select.cpp.obj
 
 .PHONY : data/game/select/Select.obj
@@ -755,9 +701,6 @@ help:
 	@echo ... Loop.obj
 	@echo ... Loop.i
 	@echo ... Loop.s
-	@echo ... data/Data.obj
-	@echo ... data/Data.i
-	@echo ... data/Data.s
 	@echo ... data/characters/Character.obj
 	@echo ... data/characters/Character.i
 	@echo ... data/characters/Character.s
@@ -800,9 +743,6 @@ help:
 	@echo ... data/game/items/Item.obj
 	@echo ... data/game/items/Item.i
 	@echo ... data/game/items/Item.s
-	@echo ... data/game/menu/Menu.obj
-	@echo ... data/game/menu/Menu.i
-	@echo ... data/game/menu/Menu.s
 	@echo ... data/game/select/Select.obj
 	@echo ... data/game/select/Select.i
 	@echo ... data/game/select/Select.s

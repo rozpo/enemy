@@ -179,3 +179,11 @@ int Battle::characterDamage(const std::shared_ptr<T1> &user, int type)
             return user->intelligence;
     }
 }
+//==================================================
+
+std::vector<std::shared_ptr<Enemy>> Battle::createEnemy(std::vector<std::shared_ptr<Enemy>> enemies)
+{
+    int x = (std::rand () % 3);
+    enemies.push_back (Factory::getInstance ().createEnemy (x));
+    return enemies;
+}
