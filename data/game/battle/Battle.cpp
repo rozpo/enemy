@@ -48,7 +48,7 @@ void Battle::endBattle(std::shared_ptr<Player> &player,
     else
     {
         std::cout << "\n [ You lose! ] \n";
-        player->loose++;
+        player->lost++;
     }
 }
 //==================================================

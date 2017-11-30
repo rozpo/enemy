@@ -23,7 +23,7 @@ void Stats::print(const std::shared_ptr<Player> &player)
 
                   << " [   weapon   ]: " << player->weapon_name << " (+" << player->weapon_dmg << ")\n"
                   << " [    gold    ]: " << player->gold << "\n\n"
-                  << player->name << " killed " << player->win << " enemies\nAnd lost " << player->loose << " times\n";
+                  << player->name << " killed " << player->win << " enemies\nAnd lost " << player->lost << " times\n";
         player->printCharacter ();
         std::cout << '\n';
     }
