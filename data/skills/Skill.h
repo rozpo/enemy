@@ -37,6 +37,7 @@ public:
     int         chance;
     int         critical;
     e_MoveType  type;
+    int         uses_max;
 
     ~Skill();
     Skill(e_Move id,
@@ -45,7 +46,8 @@ public:
           int damage,
           int chance,
           int critical,
-          e_MoveType type);
+          e_MoveType type,
+          int uses);
 
     static std::vector<std::shared_ptr<Skill>>  createSkills(std::vector<std::shared_ptr<Skill>> &skills);
     static std::string                          printType(e_MoveType type);

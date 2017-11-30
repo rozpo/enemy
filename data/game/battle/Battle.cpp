@@ -3,6 +3,8 @@
 //
 
 #include "Battle.h"
+#include <iomanip>
+
 //==================================================
 
 void Battle::levelupPlayer(std::shared_ptr<Player> &player)
@@ -31,6 +33,7 @@ void Battle::endBattle(std::shared_ptr<Player> &player,
 {
     if (player->hitpoints >= 0)
     {
+        player->win++;
         std::cout << "\n [ You win! ] \n"
                   << " Experience: +"
                   << enemy->get_exp << '\n'
@@ -43,7 +46,10 @@ void Battle::endBattle(std::shared_ptr<Player> &player,
             levelupPlayer (player);
     }
     else
+    {
         std::cout << "\n [ You lose! ] \n";
+        player->loose++;
+    }
 }
 //==================================================
 
@@ -61,9 +67,23 @@ void Battle::doBattle(std::shared_ptr<Player> &player,
             std::cin >> x;
             if (x == 1 || x == 2 || x == 3 || x == 4)
             {
-                calculateDamage(player, enemy, x - 1, skills);
+                if(player->uses[x-1] !=0)
+                {
+                    calculateDamage(player, enemy, x - 1, skills);
+                    player->uses[x-1]--;
+                }
+                else
+                    std::cout << player->name << " is exhausted\n";
+
                 x = (std::rand () % 3)+1;
-                calculateDamage(enemy, player, x - 1, skills);
+
+                if(enemy->uses[x-1] != 0)
+                {
+                    calculateDamage(enemy, player, x - 1, skills);
+                    enemy->uses[x-1]--;
+                }
+                else
+                    std::cout << enemy->name << " is exhausted\n";
             }
         } while(player->hitpoints > 0 && enemy->hitpoints > 0);
         endBattle (player,enemy);
@@ -75,7 +95,7 @@ void Battle::doBattle(std::shared_ptr<Player> &player,
 //==================================================
 
 template <typename T1, typename T2>
-void Battle::calculateDamage(std::shared_ptr<T1> &user,
+bool Battle::calculateDamage(std::shared_ptr<T1> &user,
                              std::shared_ptr<T2> &target,
                              int x,
                              const std::vector<std::shared_ptr<Skill>> &skills)
@@ -84,40 +104,33 @@ void Battle::calculateDamage(std::shared_ptr<T1> &user,
     std::cout << '\n';
     for(int i = 0; i<skills.size(); i++)
     {
-        if(user->skills[x] == skills[i]->id)
-        {
-            if(skills[i]->chance >= ((std::rand () % 100)+1))
-            {
-                dmg = user->weapon_dmg + ((std::rand () % skills[i]->damage)+1)+(characterDamage(user, skills[i]->type));
-                if(skills[i]->critical >= ((std::rand () % 100)+1))
-                {
+        if (user->skills[ x ] == skills[ i ]->id) {
+            if (skills[ i ]->chance >= ((std::rand () % 100) + 1)) {
+                dmg = user->weapon_dmg + ((std::rand () % skills[ i ]->damage) + 1) +
+                      (characterDamage (user , skills[ i ]->type));
+                if (skills[ i ]->critical >= ((std::rand () % 100) + 1)) {
                     dmg *= 2;
-                    if(! skills[i]->target)
+                    if (! skills[ i ]->target)
                         target->hitpoints -= dmg;
-                    else
-                    {
+                    else {
                         user->hitpoints += dmg;
-                        if(user->hitpoints > user->max_hitpoints)
+                        if (user->hitpoints > user->max_hitpoints)
                             user->hitpoints = user->max_hitpoints;
                     }
-                    std::cout << user->name<< " using " << skills[i]->name << " " << dmg << "HP CRITICAL HIT!";
-                }
-                else
-                {
-                    if(! skills[i]->target)
+                    std::cout << user->name << " using " << skills[ i ]->name << " " << dmg << "HP CRITICAL HIT!";
+                } else {
+                    if (! skills[ i ]->target)
                         target->hitpoints -= dmg;
-                    else
-                    {
+                    else {
                         user->hitpoints += dmg;
-                        if(user->hitpoints > user->max_hitpoints)
+                        if (user->hitpoints > user->max_hitpoints)
                             user->hitpoints = user->max_hitpoints;
                     }
-                    std::cout << user->name<< " using " << skills[i]->name << " " << dmg << "HP";
+                    std::cout << user->name << " using " << skills[ i ]->name << " " << dmg << "HP";
                 }
                 std::cout << '\n';
-            }
-            else
-                std::cout << user->name<< " miss! " << skills[i]->name << '\n';
+            } else
+                std::cout << user->name << " miss! " << skills[ i ]->name << '\n';
         }
     }
 }
@@ -143,7 +156,10 @@ void Battle::printMoves(const std::shared_ptr<Player> &player, const std::vector
     int n = 4;
     for(int i = 0; i < n; i++)
     {
-        std::cout << "[" <<i+1<<"]: ";
+        std::cout << "[" <<i+1<<"]: ("
+                  << std::setw(2)
+                  << player->uses[i]
+                  << "/10) ";
         for(int j = 0; j < skills.size (); j++)
         {
             if (player->skills[ i ] == skills[ j ]->id)

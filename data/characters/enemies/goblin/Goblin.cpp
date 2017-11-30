@@ -19,6 +19,7 @@ Goblin::Goblin():Enemy(e_enemy_goblin, 20, "Goblin", 25, 10, 10, 10, 60, 0)
     skills[1] = e_move_attack;
     skills[2] = e_move_attack;
     skills[3] = e_move_poison;
+    uses = {10, 10, 10 ,10};
 }
 
 Goblin::~Goblin()

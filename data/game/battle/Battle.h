@@ -15,7 +15,7 @@ class Battle
 public:
     //CALCULATE DAMAGE
     template <typename T1, typename T2>
-    static void calculateDamage(std::shared_ptr<T1> &user,
+    static bool calculateDamage(std::shared_ptr<T1> &user,
                                 std::shared_ptr<T2> &target,
                                 int x,
                                 const std::vector<std::shared_ptr<Skill>> &skills);

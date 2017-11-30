@@ -26,6 +26,7 @@ void Item::openItem(std::shared_ptr<Player> &player)
                 {
                     player->weapon_name = "Dagger";
                     player->weapon_dmg = 5;
+                    player->gold-=50;
                 }
                 else
                     std::cout << "Not enough gold ;(\n";
@@ -38,6 +39,7 @@ void Item::openItem(std::shared_ptr<Player> &player)
                 {
                     player->weapon_name = "Short Sword";
                     player->weapon_dmg = 10;
+                    player->gold-=120;
                 }
                 else
                     std::cout << "Not enough gold ;(\n";
@@ -50,6 +52,7 @@ void Item::openItem(std::shared_ptr<Player> &player)
                 {
                     player->weapon_name = "Great Axe";
                     player->weapon_dmg = 19;
+                    player->gold-=299;
                 }
                 else
                     std::cout << "Not enough gold ;(\n";
@@ -62,6 +65,7 @@ void Item::openItem(std::shared_ptr<Player> &player)
                 {
                     player->weapon_name = "Heavy Hammer";
                     player->weapon_dmg = 35;
+                    player->gold-=420;
                 }
                 else
                     std::cout << "Not enough gold ;(\n";
@@ -74,6 +78,7 @@ void Item::openItem(std::shared_ptr<Player> &player)
                 {
                     player->weapon_name = "Legendary Lucifer's Scythe";
                     player->weapon_dmg = 666;
+                    player->gold-=666;
                 }
                 else
                     std::cout << "Not enough gold ;(\n";

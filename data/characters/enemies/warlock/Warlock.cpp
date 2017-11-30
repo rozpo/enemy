@@ -20,6 +20,7 @@ Warlock::Warlock():Enemy(e_enemy_warlock, 60, "Warlock", 100, 5, 10, 15, 40, 0)
     skills[1] = e_move_attack;
     skills[2] = e_move_heal;
     skills[3] = e_move_firebolt;
+    uses = {10, 10, 10, 10};
 }
 
 Warlock::~Warlock()

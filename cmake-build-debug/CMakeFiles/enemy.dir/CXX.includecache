@@ -157,6 +157,8 @@ C:/Users/ezrozpi/Documents/enemy/data/characters/players/Player.h
 C:/Users/ezrozpi/Documents/enemy/data/game/battle/Battle.cpp
 Battle.h
 C:/Users/ezrozpi/Documents/enemy/data/game/battle/Battle.h
+iomanip
+-
 
 C:/Users/ezrozpi/Documents/enemy/data/game/battle/Battle.h
 ../../characters/players/Player.h
@@ -221,6 +223,8 @@ iomanip
 C:/Users/ezrozpi/Documents/enemy/data/game/stats/Stats.cpp
 Stats.h
 C:/Users/ezrozpi/Documents/enemy/data/game/stats/Stats.h
+iomanip
+-
 
 C:/Users/ezrozpi/Documents/enemy/data/game/stats/Stats.h
 ../../characters/players/Player.h

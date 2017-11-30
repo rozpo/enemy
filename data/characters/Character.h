@@ -19,7 +19,8 @@ public:
         int                     strength;
         int                     agility;
         int                     intelligence;
-        std::array<e_Move,4>    skills{};
+        std::array<e_Move, 4>   skills{};
+        std::array<int, 4>      uses{};
         int                     gold;
 
     std::string             name;

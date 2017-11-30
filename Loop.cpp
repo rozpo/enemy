@@ -52,6 +52,7 @@ void Loop::mainLoop()
                 if(data->players.empty() == 0)
                 {
                     stats->print(data->players[data->activeplayer]);
+                    stats->printMoves (data->players[data->activeplayer],data->skills);
                 }
             }
                 break;

@@ -24,7 +24,7 @@ class Create: public Game
 public:
     Create()
     {
-        name = "[N] New Character";
+        name                            = "[N] New Character";
         map_Choices[e_create_cancel]    = "Cancel";
         map_Choices[e_create_warrior]   = "Warrior";
         map_Choices[e_create_rogue]     = "Rogue";
