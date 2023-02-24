@@ -24,31 +24,14 @@ class Create: public Game
 public:
     Create()
     {
-        name = "[N] New Character";
+        name                            = "[N] New Character";
         map_Choices[e_create_cancel]    = "Cancel";
         map_Choices[e_create_warrior]   = "Warrior";
         map_Choices[e_create_rogue]     = "Rogue";
         map_Choices[e_create_mage]      = "Mage";
     }
 
-    std::vector<std::shared_ptr<Player>> createPlayer(std::vector<std::shared_ptr<Player>> &players, int &status)
-    {
-        if (players.size () < 5)
-        {
-                if( status ==1 || status ==2 || status ==3)
-                {
-                    players.push_back (Factory::getInstance().createPlayer(status));
-                    return players;
-                }
-                else
-                    return players;
-        }
-        else
-        {
-            std::cout << "Characters limit" << "\n";
-            return players;
-        }
-    }
+    std::vector<std::shared_ptr<Player>> createPlayer(std::vector<std::shared_ptr<Player>> &players, int &status);
 };
 
 #endif //ENEMY_CREATE_H

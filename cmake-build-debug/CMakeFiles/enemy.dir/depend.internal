@@ -19,13 +19,6 @@ CMakeFiles/enemy.dir/Loop.cpp.obj
  C:/Users/ezrozpi/Documents/enemy/data/game/stats/Stats.h
  C:/Users/ezrozpi/Documents/enemy/data/game/training/Training.h
  C:/Users/ezrozpi/Documents/enemy/data/skills/Skill.h
-CMakeFiles/enemy.dir/data/Data.cpp.obj
- C:/Users/ezrozpi/Documents/enemy/data/Data.cpp
- C:/Users/ezrozpi/Documents/enemy/data/Data.h
- C:/Users/ezrozpi/Documents/enemy/data/characters/Character.h
- C:/Users/ezrozpi/Documents/enemy/data/characters/enemies/Enemy.h
- C:/Users/ezrozpi/Documents/enemy/data/characters/players/Player.h
- C:/Users/ezrozpi/Documents/enemy/data/skills/Skill.h
 CMakeFiles/enemy.dir/data/characters/Character.cpp.obj
  C:/Users/ezrozpi/Documents/enemy/data/characters/Character.cpp
  C:/Users/ezrozpi/Documents/enemy/data/characters/Character.h
@@ -119,13 +112,6 @@ CMakeFiles/enemy.dir/data/game/items/Item.cpp.obj
  C:/Users/ezrozpi/Documents/enemy/data/game/items/Item.cpp
  C:/Users/ezrozpi/Documents/enemy/data/game/items/Item.h
  C:/Users/ezrozpi/Documents/enemy/data/skills/Skill.h
-CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj
- C:/Users/ezrozpi/Documents/enemy/data/characters/Character.h
- C:/Users/ezrozpi/Documents/enemy/data/characters/players/Player.h
- C:/Users/ezrozpi/Documents/enemy/data/game/Game.h
- C:/Users/ezrozpi/Documents/enemy/data/game/menu/Menu.cpp
- C:/Users/ezrozpi/Documents/enemy/data/game/menu/Menu.h
- C:/Users/ezrozpi/Documents/enemy/data/skills/Skill.h
 CMakeFiles/enemy.dir/data/game/select/Select.cpp.obj
  C:/Users/ezrozpi/Documents/enemy/data/characters/Character.h
  C:/Users/ezrozpi/Documents/enemy/data/characters/players/Player.h
@@ -155,8 +141,6 @@ CMakeFiles/enemy.dir/data/game/training/Training.cpp.obj
  C:/Users/ezrozpi/Documents/enemy/data/game/training/Training.h
  C:/Users/ezrozpi/Documents/enemy/data/skills/Skill.h
 CMakeFiles/enemy.dir/data/skills/Skill.cpp.obj
- C:/Users/ezrozpi/Documents/enemy/data/characters/Character.h
- C:/Users/ezrozpi/Documents/enemy/data/characters/players/Player.h
  C:/Users/ezrozpi/Documents/enemy/data/skills/Skill.cpp
  C:/Users/ezrozpi/Documents/enemy/data/skills/Skill.h
 CMakeFiles/enemy.dir/main.cpp.obj

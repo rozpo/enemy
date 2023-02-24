@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/enemy.dir/main.cpp.obj"
   "CMakeFiles/enemy.dir/data/game/Game.cpp.obj"
-  "CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj"
   "CMakeFiles/enemy.dir/data/game/create/Create.cpp.obj"
-  "CMakeFiles/enemy.dir/data/Data.cpp.obj"
   "CMakeFiles/enemy.dir/data/characters/Character.cpp.obj"
   "CMakeFiles/enemy.dir/data/characters/players/warrior/Warrior.cpp.obj"
   "CMakeFiles/enemy.dir/data/characters/players/Player.cpp.obj"

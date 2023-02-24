@@ -22,6 +22,8 @@ public:
     int         level;
     int         experience;
     int         level_points;
+    int         win;
+    int         lost;
 
     Player(e_Player p_id,
            std::string p_name,

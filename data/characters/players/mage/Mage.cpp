@@ -24,6 +24,7 @@ Mage::Mage() :Player(e_player_mage,    //ID
     skills[1] = e_move_heal;
     skills[2] = e_move_firebolt;
     skills[3] = e_move_frost_nova;
+    uses = {10, 10, 10 ,10};
 }
 
 Mage::~Mage()

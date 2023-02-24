@@ -24,6 +24,7 @@ Warrior::Warrior() :Player(e_player_warrior,    //ID
     skills[1] = e_move_power_attack;
     skills[2] = e_move_bash;
     skills[3] = e_move_heal;
+    uses = {10, 10, 10 ,10};
 }
 
 Warrior::~Warrior()

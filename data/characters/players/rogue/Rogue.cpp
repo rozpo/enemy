@@ -25,6 +25,7 @@ Rogue::Rogue() :Player(e_player_rogue,    //ID
     skills[1] = e_move_throw;
     skills[2] = e_move_poison;
     skills[3] = e_move_heal;
+    uses = {10, 10, 10 ,10};
 }
 
 Rogue::~Rogue()

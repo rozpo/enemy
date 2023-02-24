@@ -1,8 +1,6 @@
 #include <iostream>
 
 #include "data/game/Game.h"
-#include <memory>
-#include "data/Data.h"
 #include "Loop.h"
 
 int main()

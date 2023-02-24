@@ -24,10 +24,8 @@ enum e_MoveType
     e_type_int
 };
 
-//#include "characters/Character.h"
 #include <vector>
 #include <memory>
-//#include "characters/players/Player.h"
 
 class Skill
 {
@@ -39,16 +37,21 @@ public:
     int         chance;
     int         critical;
     e_MoveType  type;
+    int         uses_max;
 
-    Skill(e_Move id,std::string name,bool target,int damage,int chance,int critical, e_MoveType type);
     ~Skill();
-    static std::vector<std::shared_ptr<Skill>> createSkills(std::vector<std::shared_ptr<Skill>> &skills);
-    //static void openTutor(std::vector<Skill*> moves);
-    //static void printTutorChoice();
-    //static void printMoves(std::vector<Skill*> moves);
-    static std::string printType(e_MoveType type);
-    static void printSkills(const std::vector<std::shared_ptr<Skill>> &skills);
-};
+    Skill(e_Move id,
+          std::string name,
+          bool target,
+          int damage,
+          int chance,
+          int critical,
+          e_MoveType type,
+          int uses);
 
+    static std::vector<std::shared_ptr<Skill>>  createSkills(std::vector<std::shared_ptr<Skill>> &skills);
+    static std::string                          printType(e_MoveType type);
+    static void                                 printSkills(const std::vector<std::shared_ptr<Skill>> &skills);
+};
 
 #endif //ENEMY_SKILL_H

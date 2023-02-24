@@ -12,6 +12,7 @@ class Stats: public Game
 {
 public:
     void print(const std::shared_ptr<Player> &player);
+    void printMoves(const std::shared_ptr<Player> &player, const std::vector<std::shared_ptr<Skill>> &skills);
 };
 
 #endif //ENEMY_STATS_H

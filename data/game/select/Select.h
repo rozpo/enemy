@@ -22,23 +22,8 @@ public:
         map_Choices[e_select_cancel]    = "Cancel";
     }
 
-    void print(const std::vector<std::shared_ptr<Player>> &players)
-    {
-        if (players.empty () == 0)
-        {
-            std::cout << "---\n"
-                      << name << "\n\n";
-            for ( int i = 0 ; i < players.size () ; i ++ )
-                std::cout << "[" << i + 1 << "]: " << players[ i ]->name << '\n';
-            std::cout << '\n' << "---\n" << "[0]: " << this->map_Choices[0] << '\n';
-        }
-    }
-
-    int selectPlayer(const int status)
-    {
-
-        return status-1;
-    }
+    void print(const std::vector<std::shared_ptr<Player>> &players);
+    int selectPlayer(const int status);
 };
 
 #endif //ENEMY_SELECT_H

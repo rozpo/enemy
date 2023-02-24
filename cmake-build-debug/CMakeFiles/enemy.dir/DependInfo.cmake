@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/ezrozpi/Documents/enemy/Loop.cpp" "C:/Users/ezrozpi/Documents/enemy/cmake-build-debug/CMakeFiles/enemy.dir/Loop.cpp.obj"
-  "C:/Users/ezrozpi/Documents/enemy/data/Data.cpp" "C:/Users/ezrozpi/Documents/enemy/cmake-build-debug/CMakeFiles/enemy.dir/data/Data.cpp.obj"
   "C:/Users/ezrozpi/Documents/enemy/data/characters/Character.cpp" "C:/Users/ezrozpi/Documents/enemy/cmake-build-debug/CMakeFiles/enemy.dir/data/characters/Character.cpp.obj"
   "C:/Users/ezrozpi/Documents/enemy/data/characters/enemies/Enemy.cpp" "C:/Users/ezrozpi/Documents/enemy/cmake-build-debug/CMakeFiles/enemy.dir/data/characters/enemies/Enemy.cpp.obj"
   "C:/Users/ezrozpi/Documents/enemy/data/characters/enemies/goblin/Goblin.cpp" "C:/Users/ezrozpi/Documents/enemy/cmake-build-debug/CMakeFiles/enemy.dir/data/characters/enemies/goblin/Goblin.cpp.obj"
@@ -20,7 +19,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/ezrozpi/Documents/enemy/data/game/battle/Battle.cpp" "C:/Users/ezrozpi/Documents/enemy/cmake-build-debug/CMakeFiles/enemy.dir/data/game/battle/Battle.cpp.obj"
   "C:/Users/ezrozpi/Documents/enemy/data/game/create/Create.cpp" "C:/Users/ezrozpi/Documents/enemy/cmake-build-debug/CMakeFiles/enemy.dir/data/game/create/Create.cpp.obj"
   "C:/Users/ezrozpi/Documents/enemy/data/game/items/Item.cpp" "C:/Users/ezrozpi/Documents/enemy/cmake-build-debug/CMakeFiles/enemy.dir/data/game/items/Item.cpp.obj"
-  "C:/Users/ezrozpi/Documents/enemy/data/game/menu/Menu.cpp" "C:/Users/ezrozpi/Documents/enemy/cmake-build-debug/CMakeFiles/enemy.dir/data/game/menu/Menu.cpp.obj"
   "C:/Users/ezrozpi/Documents/enemy/data/game/select/Select.cpp" "C:/Users/ezrozpi/Documents/enemy/cmake-build-debug/CMakeFiles/enemy.dir/data/game/select/Select.cpp.obj"
   "C:/Users/ezrozpi/Documents/enemy/data/game/shop/Shop.cpp" "C:/Users/ezrozpi/Documents/enemy/cmake-build-debug/CMakeFiles/enemy.dir/data/game/shop/Shop.cpp.obj"
   "C:/Users/ezrozpi/Documents/enemy/data/game/stats/Stats.cpp" "C:/Users/ezrozpi/Documents/enemy/cmake-build-debug/CMakeFiles/enemy.dir/data/game/stats/Stats.cpp.obj"

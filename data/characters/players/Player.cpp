@@ -20,6 +20,8 @@ Player::Player(e_Player p_id,
                     level(1),
                     experience(0),
                     level_points(0),
+                    win(0),
+                    lost(0),
 
                     Character(std::move (p_name),
                               p_hitpoints,
@@ -27,6 +29,6 @@ Player::Player(e_Player p_id,
                               p_strength,
                               p_agility,
                               p_intelligence,
-                              10001
-                            ,0)
+                              100,
+                              0)
 {}

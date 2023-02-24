@@ -15,7 +15,7 @@ class Battle
 public:
     //CALCULATE DAMAGE
     template <typename T1, typename T2>
-    static void calculateDamage(std::shared_ptr<T1> &user,
+    static bool calculateDamage(std::shared_ptr<T1> &user,
                                 std::shared_ptr<T2> &target,
                                 int x,
                                 const std::vector<std::shared_ptr<Skill>> &skills);
@@ -40,14 +40,11 @@ public:
     static void printMoves(const std::shared_ptr<Player> &player,
                            const std::vector<std::shared_ptr<Skill>> &skills);
 
-    static std::vector<std::shared_ptr<Enemy>> createEnemy(std::vector<std::shared_ptr<Enemy>> enemies)
-    {
-        int x = (std::rand () % 3);
-        enemies.push_back (Factory::getInstance ().createEnemy (x));
-        return enemies;
-    }
+    static std::vector<std::shared_ptr<Enemy>> createEnemy(std::vector<std::shared_ptr<Enemy>> enemies);
+
     template <typename T1>
-    static int characterDamage(const std::shared_ptr<T1> &user, int type);
+    static int characterDamage(const std::shared_ptr<T1> &user,
+                               int type);
 };
 
 

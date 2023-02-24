@@ -6,10 +6,8 @@
 #include <iomanip>
 #include <iostream>
 
-#include "../characters/players/Player.h"
-
-Skill::Skill(e_Move id,std::string name,bool target,int damage,int chance,int critical, e_MoveType type):
-        id(id),name(std::move (name)),target(target),damage(damage),chance(chance),critical(critical), type(type)
+Skill::Skill(e_Move id,std::string name,bool target,int damage,int chance,int critical, e_MoveType type, int uses):
+        id(id),name(std::move (name)),target(target),damage(damage),chance(chance),critical(critical), type(type), uses_max(uses)
 {}
 
 Skill::~Skill()
@@ -21,20 +19,20 @@ std::vector<std::shared_ptr<Skill>> Skill::createSkills(std::vector<std::shared_
 {
     //ID, NAME, TARGET, DAMAGE, CHANCE, CRITICAL, TYPE
     //All
-    skills.push_back (std::make_shared<Skill>(e_move_attack,"Fast attack",false,20,90,10,e_type_str));
-    skills.push_back (std::make_shared<Skill>(e_move_heal,"Heal",true,50,100,20,e_type_int));
+    skills.push_back (std::make_shared<Skill>(e_move_attack,"Fast attack",false,20,90,10,e_type_str,10));
+    skills.push_back (std::make_shared<Skill>(e_move_heal,"Heal",true,50,100,20,e_type_int,10));
 
     //Warrior
-    skills.push_back (std::make_shared<Skill>(e_move_power_attack,"Powerful swing",false,40,70,25,e_type_str));
-    skills.push_back (std::make_shared<Skill>(e_move_bash,"Shield bash",false,30,50,30,e_type_str));
+    skills.push_back (std::make_shared<Skill>(e_move_power_attack,"Powerful swing",false,40,70,25,e_type_str,10));
+    skills.push_back (std::make_shared<Skill>(e_move_bash,"Shield bash",false,30,50,30,e_type_str,10));
 
     //Rogue
-    skills.push_back (std::make_shared<Skill>(e_move_throw,"Throw knife",false,30,85,75,e_type_agi));
-    skills.push_back (std::make_shared<Skill>(e_move_poison,"Spread poison",false,40,75,40,e_type_agi));
+    skills.push_back (std::make_shared<Skill>(e_move_throw,"Throw knife",false,30,85,75,e_type_agi,10));
+    skills.push_back (std::make_shared<Skill>(e_move_poison,"Spread poison",false,40,75,40,e_type_agi,10));
 
     //Mage
-    skills.push_back (std::make_shared<Skill>(e_move_firebolt,"Throw firebolt",false,100,65,5,e_type_int));
-    skills.push_back (std::make_shared<Skill>(e_move_frost_nova,"Cast frost nova",false,50,75,50,e_type_int));
+    skills.push_back (std::make_shared<Skill>(e_move_firebolt,"Throw firebolt",false,100,65,5,e_type_int,10));
+    skills.push_back (std::make_shared<Skill>(e_move_frost_nova,"Cast frost nova",false,50,75,50,e_type_int,10));
 
     return skills;
 }
