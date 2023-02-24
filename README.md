@@ -1,6 +1,6 @@
 # Enemy
 
-This game was made during my internship in for OOP self-learning purposes.
+This game was made during my internship for OOP self-learning purposes.
 
 ## Prerequisites
 
