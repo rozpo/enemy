@@ -14,7 +14,10 @@ class Factory
 private:
     Factory(){};
     Factory(const Factory &){};
-    Factory& operator= (const Factory&){};
+    Factory& operator= (const Factory&)
+    {
+        return *this;
+    };
 public:
     static std::shared_ptr<Player> createPlayer(int type);
     static std::shared_ptr<Enemy>  createEnemy(int type);

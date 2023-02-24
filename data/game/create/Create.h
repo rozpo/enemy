@@ -5,7 +5,6 @@
 #ifndef ENEMY_CREATE_H
 #define ENEMY_CREATE_H
 
-#include <docobjectservice.h>
 #include "../Game.h"
 #include "../../characters/players/Player.h"
 #include "../../characters/Character.h"

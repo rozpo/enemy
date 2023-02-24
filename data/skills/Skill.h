@@ -26,6 +26,7 @@ enum e_MoveType
 
 #include <vector>
 #include <memory>
+#include <string>
 
 class Skill
 {
