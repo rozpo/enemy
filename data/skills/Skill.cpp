@@ -61,5 +61,7 @@ std::string Skill::printType(e_MoveType type)
             return "AGIL";
         case e_type_int:
             return "INTE";
+        default:
+            return "";
     }
 }

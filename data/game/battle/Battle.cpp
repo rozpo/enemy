@@ -95,7 +95,7 @@ void Battle::doBattle(std::shared_ptr<Player> &player,
 //==================================================
 
 template <typename T1, typename T2>
-bool Battle::calculateDamage(std::shared_ptr<T1> &user,
+void Battle::calculateDamage(std::shared_ptr<T1> &user,
                              std::shared_ptr<T2> &target,
                              int x,
                              const std::vector<std::shared_ptr<Skill>> &skills)
@@ -193,6 +193,8 @@ int Battle::characterDamage(const std::shared_ptr<T1> &user, int type)
             return user->agility;
         case e_type_int:
             return user->intelligence;
+        default:
+            return 0;
     }
 }
 //==================================================
