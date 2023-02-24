@@ -1,3 +1,0 @@
-C:/Users/ezrozpi/Documents/enemy/cmake-build-debug/CMakeFiles/enemy.dir
-C:/Users/ezrozpi/Documents/enemy/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/ezrozpi/Documents/enemy/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,7 +1,0 @@
-cmake_minimum_required(VERSION 3.8)
-project(enemy)
-
-set(CMAKE_CXX_STANDARD 11)
-
-set(SOURCE_FILES main.cpp data/game/Game.cpp data/game/Game.h data/game/menu/Menu.h data/game/create/Create.cpp data/game/create/Create.h data/Data.h data/characters/Character.cpp data/characters/Character.h data/characters/players/warrior/Warrior.cpp data/characters/players/warrior/Warrior.h data/characters/players/Player.cpp data/characters/players/Player.h data/skills/Skill.cpp data/skills/Skill.h data/characters/players/rogue/Rogue.cpp data/characters/players/rogue/Rogue.h data/characters/players/mage/Mage.cpp data/characters/players/mage/Mage.h Loop.cpp Loop.h data/characters/enemies/Enemy.cpp data/characters/enemies/Enemy.h data/characters/enemies/warlock/Warlock.cpp data/characters/enemies/warlock/Warlock.h data/characters/enemies/orc/Orc.cpp data/characters/enemies/orc/Orc.h data/characters/enemies/goblin/Goblin.cpp data/characters/enemies/goblin/Goblin.h data/factory/Factory.cpp data/factory/Factory.h data/game/select/Select.cpp data/game/select/Select.h data/game/stats/Stats.cpp data/game/stats/Stats.h data/game/battle/Battle.cpp data/game/battle/Battle.h data/game/shop/Shop.cpp data/game/shop/Shop.h data/game/training/Training.cpp data/game/training/Training.h data/game/items/Item.cpp data/game/items/Item.h)
-add_executable(enemy ${SOURCE_FILES})
